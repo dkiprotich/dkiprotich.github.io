@@ -235,7 +235,6 @@ img{
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem; 
-
     &:hover{
         box-shadow: 0px 10px 36px rgba(0,0,0,.15);
     }
@@ -417,6 +416,7 @@ img{
         }
         &__link{
             color: var(--second-color);
+            
         }
     }
     .home{
@@ -429,6 +429,7 @@ img{
             padding-bottom: 2.5rem;
             flex-direction: row;
             align-self: flex-end;
+            z-index:1000;
 
             &-icon{
                 margin-bottom: 0;
@@ -437,6 +438,7 @@ img{
         }
         &__img{
             width: 457px;
+            
             bottom: 15%;
         }
     }
