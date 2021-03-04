@@ -444,8 +444,9 @@ img{
   .home__img{
     right: 0;
     width: 98%;
-     margin-top:-2rem;
-     
+  }
+  .home__data{
+    margin-bottom:2rem;
   }
   .home__img img{
     width:98%;
